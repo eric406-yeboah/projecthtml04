@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/wallpaper.jpg);
+    background-position-x:40% ;
+    background-position-y: -3%;
+}
+
+#up{
+    border: 1px solid black;
+    height: 10vh;
+    background-color: white;
+    text-align: center;
+}
+/* #im{
+    padding-left: 80px;
+} */
+#right{
+    float: left;
+    padding: 120px 180px;
+    color: white;
+    font-size: px;
+}
+#left{
+    float: right;
+    margin-top: 70px;
+    padding: 20px;
+    width: 30%;
+    height: 65vh;
+    border-radius: 2px;
+    justify-content: center;
+    background: white;
+    margin-right: 140px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1) ;
+    display: block;
+}
+
+input,#test{
+    display: block;
+    width: 90%;
+    height: 30px;
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+    border-radius: 10px;
+    margin-left: 1%;
+    outline: none;
+    border: hidden;
+}
+
+#test{
+    background: orangered;
+    text-decoration: none;
+    text-align: center;
+}
+
+.styled,#touch,#get{
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+#touch,#get{
+    background-color: orangered;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
